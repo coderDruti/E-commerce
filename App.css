@@ -1,0 +1,140 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(157, 97, 213);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(139, 27, 117);
+  height: 40px;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.img {
+  height: 20px;
+  width: max-content;
+}
+h1 {
+  height: 30px;
+  width: max-content;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: rgb(255, 255, 255);
+}
+.img,
+h1 {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.navigation {
+  background-color: rgb(139, 27, 117);
+}
+.navigation .nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 7px;
+  padding-left: 7px;
+  height: 7px;
+  text-decoration: none;
+}
+.navigation .nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.Sidebar:hover {
+  cursor: pointer;
+}
+
+.Sidebar:hover + #Sidebarnav {
+  display: grid;
+  position: sticky;
+  height: 2170px;
+  width: 270px;
+  color: black;
+  list-style-type: none;
+  text-decoration: none;
+}
+#Sidebarnav:hover {
+  display: grid;
+  position: sticky;
+  height: 2168px;
+  width: 270px;
+  color: black;
+  list-style-type: none;
+  text-decoration: none;
+  transition: all 2s ease-out;
+}
+/* #Sidebarnav:target {
+  display: grid;
+  position: sticky;
+  height: 2168px;
+  width: 270px;
+  color: black;
+  list-style-type: none;
+  text-decoration: none;
+  transition: all 2s ease-out;
+} */
+#img:focus #Sidebarnav:target {
+  position: absolute;
+  left: -999px;
+}
+nav.c {
+  background-color: beige;
+}
+.list {
+  display: list-item;
+  padding-right: 10px;
+  padding-left: 10px;
+  list-style-type: none;
+  margin-bottom: 0px;
+}
+.list li {
+  padding-bottom: 50px;
+}
+#Sidebarnav {
+  display: none;
+}
+.Category {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+span h2 {
+  max-width: max-content;
+  color: rgb(255, 255, 255);
+}
+section h3.prod {
+  max-width: max-content;
+  color: rgb(255, 255, 255);
+}
+.articles {
+  display: flex;
+  justify-content: space-between;
+}
+.caption {
+  color: rgb(255, 255, 255);
+}
+.footer {
+  background-color: rgb(4, 4, 37);
+  color: white;
+}
+.Contact {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
