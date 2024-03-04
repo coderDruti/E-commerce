@@ -4,8 +4,8 @@ export default function Footer() {
       <ul className="Contact">
         <li className="Contact">
           Phone:
-          <a href="tel:+919073842576" className="Contact">
-            +919073842576
+          <a href="tel:+919073842575" className="Contact">
+            +919073842575
           </a>
         </li>
         <li className="Contact">
